@@ -1,0 +1,277 @@
+
+
+
+
+/* CONTENT */
+
+.banner{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+
+.content-section{
+  margin: 50px 0;
+}
+
+.content-section .Title h1, .content-section .Title h6{
+  text-transform: uppercase;
+  margin: 0;
+  text-align: center;
+}
+
+.content-section .Title h1{
+  margin-bottom: 15px;
+  font-size: 80px;
+  font-weight: 600;
+}
+
+.content-section .Title h6{
+  margin-bottom: 70px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.content{
+  margin: 30px auto;
+}
+.content{
+  position: relative;
+  width: 450px;
+  height: 398px;
+  /* background-image: url(content2.png); */
+
+
+  background-size: cover;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+
+}
+
+.content img{
+  width: inherit;
+  height: inherit;
+  filter: brightness(50%);
+}
+
+
+
+.content span{
+  width: 420px;
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%,-100%);
+  font-weight: 600;
+
+}
+
+
+
+
+.contentWrapper{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.level-up{
+  background-color: #1D1819;
+  width: 100%;
+  height: 400px;
+  
+}
+
+.level-up .wrapper img{
+  width: 60%;
+  height: 100%;
+}
+
+.grid{
+  display: flex;
+  justify-content: space-between;
+}
+
+.bannerlevelup{
+  background-image: url(../assets/content1.jpg);
+  background-size: cover;
+  width: 600px;
+  height: 400px;
+  background-repeat: no-repeat;
+  
+}
+
+.level-up .grid .title{
+  width: 548px;
+  text-align: right;
+}
+
+.level-up .grid .title span{
+  color: #fff;
+  text-transform: uppercase;
+  margin: 40px 130px 40px 0px;
+  display: inline-block;
+  font-size: 48px;
+  font-weight: 500;
+}
+
+.level-up .grid .title span:nth-child(1){
+  margin-bottom: 0;
+}
+
+.level-up .grid .title span:nth-child(2){
+  margin-left: 100px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.level-up .grid .title span:nth-child(3){
+  /* margin-left: 100px; */
+  margin-top: 0;
+}
+
+.checkourseries{
+  display: block;
+  /* margin-left: 100px; */
+  margin-top: 20px;
+  width: 170px;
+  font-size: 15px;
+}
+
+.whomadeerigo{
+  background-image: url(../assets/CEOerigo.png);
+  background-size: cover;
+  width: 550px;
+  height: 370px;
+  background-repeat: no-repeat;
+  margin-left: 100px;
+}
+
+.g-col-6.title.desc h1{
+  font-weight: bold;
+  margin-right: 100px;
+  text-align: right;
+  font-size: 60px;
+}
+
+.g-col-6.title.desc h2{
+  font-weight: 600;
+  margin-right: 100px;
+}
+
+.g-col-6.title p{
+  width: 405px;
+}
+
+.g-col-6.title{
+  text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+  
+
+
+  .content-section .Title h1{
+    margin-bottom: 15px;
+    font-size: 70px;
+    font-weight: 600;
+  }
+  
+  .content-section .Title h6{
+    margin-bottom: 70px;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .level-up{
+    height: 650px;
+  }
+  .grid{
+  flex-wrap: wrap;
+  justify-content: center;
+  }
+
+  .bannerlevelup{
+  width: 100%;
+  }
+
+ .level-up .grid .title span{
+    display: inline;
+  font-size: 50px;
+  margin: 0;
+  }
+
+  .level-up .grid .title span:nth-child(2){
+    margin: 0;
+    margin-left: 12px;
+  }
+
+  .level-up .grid .title span{
+  
+  margin-left: 12px;
+  }
+
+  div .g-col-6.title.button{
+    text-align: center;
+  }
+
+  .checkourseries{
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 250px;
+    font-size: 20px;
+  }
+
+  .g-col-6.whomadeerigo{
+    margin: 0 auto;
+  }
+
+
+  .g-col-6.title.desc{
+    text-align: center;
+    
+  }
+
+  .g-col-6.title.desc h1, .g-col-6.title.desc h2, .g-col-6.title.desc p{
+    text-align: center;
+    /* width: 1000px; */
+    margin: 20px auto;
+  }
+
+
+
+ 
+
+ 
+  
+}
+

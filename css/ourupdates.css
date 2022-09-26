@@ -1,0 +1,369 @@
+
+/* TAB BAR */
+
+.title h6 , .title h1{
+   margin-left: 100px;
+   
+}
+.title h1{
+  margin-top: 50px;
+}
+.title h6{
+  margin-bottom: 100px;
+}
+
+.nav-link.tabErigo{
+  color: #F7B301 !important;
+  font-size: 15px !important;
+
+  font-weight: bold !important;
+}
+
+a.nav-link.tabErigo:hover{
+  color: #F7B301 !important;
+}
+
+a.nav-link.tabErigo.active:hover{
+  color: #1D1819 !important;
+}
+.nav-link.tabErigo.active{
+  color: #1D1819 !important;
+}
+
+
+/* ========================================= */
+
+
+
+
+/* ERIGO TOUR */
+
+.turkey{
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../assets/turkey.png");
+}
+
+.goestoBanner{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+ background-size: cover;
+  background-repeat: no-repeat;
+  /* height: 448px; */
+  text-align: center;
+  height: 400px;
+  color: white;
+  text-transform: uppercase;
+}
+
+
+.turkey:hover{
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/turkey.png");
+}
+
+.goestoBanner h1{
+  /* margin-top: auto; */
+  margin: 0;
+  /* padding-top: 50%; */
+  font-size: 90px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+}
+
+.goestoBanner h6{
+  /* margin-bottom: auto; */
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+.newyork{
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../assets/newyork.jpg");
+}
+
+.newyork:hover{
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/newyork.jpg");
+}
+
+
+.one, .two{
+  margin-bottom: 50px;
+}
+
+
+
+/* ERIGO CONTENTS */
+
+
+
+.contents{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  
+}
+.contents h1{
+  width: 400px;
+  margin-top: 0;
+}
+
+.contents p{
+  font-family: 'Lora', serif;
+  width: 400px;
+}
+
+.checkitOut{
+  width: 170px;
+  font-size: 15px;
+}
+
+/* ============================ */
+
+/* CONTENTS 1 */
+.contents.one{
+  padding-top: 70px;
+}
+.contents.one .right{
+  background-image: url(../assets/gading.png);
+  width: 600px;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.contents.one .left{
+  text-align: right;
+  
+}
+
+.contents.one h1{
+  margin-left: 230px;
+  margin-bottom: 50px;
+}
+
+.contents.one p{
+  
+  margin-left: 230px;
+  margin-bottom: 50px;
+}
+
+.contents.one .left .checkitOut{
+  /* background-color: #1D1819; */
+  
+  margin-right: 400px;
+}
+
+
+
+
+
+
+/* CONTENT 2 */
+.contents.two .left{
+  background-image: url(../assets/erigo2v2.png);
+  width: 600px;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.contents.two .right{
+  text-align: left;
+  
+}
+
+.contents.two h1{
+  width: 600px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  margin-left: 0;
+  /* font-size: 35px; */
+}
+
+.contents.two p{
+  width: 400px;
+  margin-right: 230px;
+  margin-bottom: 80px;
+}
+
+.contents.two .right .checkitOut{
+  /* background-color: #1D1819; */
+
+  margin-left: 400px;
+}
+
+
+/* CONTENTS 3 */
+
+.contents.three .right{
+  background-image: url(../assets/lunamaya.png);
+  width: 600px;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.contents.three .left{
+  text-align: right;
+  
+}
+
+.contents.three h1{
+  margin-left: 230px;
+  margin-bottom: 50px;
+}
+
+.contents.three p{
+  margin-left: 230px;
+  margin-bottom: 50px;
+}
+
+.contents.three .left .checkitOut{
+  /* background-color: #1D1819; */
+  
+  margin-right: 400px;
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+.title h6 , .title h1{
+  text-align: center;
+  margin-left: 0;
+  
+}
+
+.title h1{
+  font-size: 40px;
+}
+.title h6{
+  font-size: 14px;
+}
+
+.goestoBanner{
+  height: 300px;
+}
+
+.goestoBanner h1{
+  /* margin-top: auto; */
+  margin: 0;
+  /* padding-top: 50%; */
+  font-size: 70px;
+  
+  
+}
+
+.goestoBanner h6{
+  /* margin-bottom: auto; */
+  margin: 0;
+  font-size: 15px;
+  
+}
+
+
+
+/* CONTENTS */
+
+.contents{
+  flex-direction: column-reverse;
+  justify-content: start;
+  
+}
+
+.contents.two{
+  flex-direction: column;
+}
+
+/* ===================================== */
+
+.contents.one .right{
+  width: 100%;
+}
+
+.contents.one .left h1, .contents.one .left p{
+  text-align: center;
+  margin: 10px auto !important;
+
+}
+
+.contents.one .left{
+  text-align: center;
+}
+
+.contents.one .left .checkitOut{
+  margin: 0;
+  margin-top: 10px;
+}
+
+/* ======================================= */
+
+
+.contents.two .left{
+  width: 100%;
+}
+
+.contents.two .right h1, .contents.two .right p{
+  text-align: center;
+  margin: 10px auto !important;
+
+}
+
+.contents.two .right h1{
+  font-size: 30px;
+}
+
+.contents.two .right{
+  text-align: center;
+}
+
+.contents.two .right .checkitOut{
+  margin: 0;
+  margin-top: 10px;
+}
+
+/* ======================================== */
+
+.contents.three .right{
+  width: 100%;
+}
+
+.contents.three .left h1, .contents.three .left p{
+  text-align: center;
+  margin: 10px auto !important;
+
+}
+
+
+
+.contents.three .left{
+  text-align: center;
+}
+
+.contents.three .left .checkitOut{
+  margin: 0;
+  margin-top: 10px;
+}
+
+}
+
+
+
+
+
+
+
+
+

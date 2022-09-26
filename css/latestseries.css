@@ -1,0 +1,323 @@
+.series{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  
+}
+.series h1{
+  width: 400px;
+  margin-top: 0;
+}
+
+.series p{
+  font-family: 'Lora', serif;
+  width: 430px;
+  font-size: 20px;
+}
+
+.buyNow{
+  width: 170px;
+  font-size: 15px;
+}
+
+/* ============================ */
+
+/* series 1 */
+.series.one{
+  padding-top: 70px;
+}
+.series.one .right{
+  background-image: url(../assets/series\ 1.png);
+  width: 600px;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.series.one .left{
+  text-align: right;
+  
+}
+
+.series.one h1{
+  margin-left: 230px;
+  margin-bottom: 50px;
+}
+
+.series.one p{
+  
+  margin-left: 200px;
+  margin-bottom: 50px;
+}
+
+.series.one .left .buyNow{
+  /* background-color: #1D1819; */
+  
+  margin-right: 400px;
+}
+
+
+
+
+
+
+/* CONTENT 2 */
+.series.two .left{
+  background-image: url(../assets/series\ 2.png);
+  width: 600px;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.series.two .right{
+  text-align: left;
+  
+}
+
+.series.two h1{
+  width: 600px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  margin-left: 0;
+  /* font-size: 35px; */
+}
+
+.series.two p{
+  margin-right: 200px;
+  margin-bottom: 80px;
+}
+
+.series.two .right .buyNow{
+  /* background-color: #1D1819; */
+
+  margin-left: 400px;
+}
+
+
+/* series 3 */
+
+.series.three .right{
+  background-image: url(../assets/series\ 3.png);
+  width: 600px;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.series.three .left{
+  text-align: right;
+  
+}
+
+.series.three h1{
+  margin-left: 200px;
+  margin-bottom: 50px;
+}
+
+.series.three p{
+  margin-left: 200px;
+  margin-bottom: 50px;
+}
+
+.series.three .left .buyNow{
+  /* background-color: #1D1819; */
+  
+  margin-right: 400px;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+
+/* series */
+
+.series{
+  flex-direction: column-reverse;
+  justify-content: start;
+  
+}
+
+.series.two{
+  flex-direction: column;
+}
+
+/* ===================================== */
+
+.series.one{
+  padding: 0;
+}
+.series.one .right{
+  width: 100%;
+}
+
+.series.one .left h1, .series.one .left p{
+  text-align: center;
+  margin: 10px auto !important;
+
+}
+
+.series.one .left{
+  text-align: center;
+}
+
+.series.one .left .buyNow{
+  margin: 0;
+  margin-top: 10px;
+}
+
+/* ======================================= */
+
+
+.series.two .left{
+  width: 100%;
+}
+
+.series.two .right h1, .series.two .right p{
+  text-align: center;
+  margin: 10px auto !important;
+
+}
+
+.series.two .right h1{
+  font-size: 30px;
+}
+
+.series.two .right{
+  text-align: center;
+}
+
+.series.two .right .buyNow{
+  margin: 0;
+  margin-top: 10px;
+}
+
+/* ======================================== */
+
+.series.three .right{
+  width: 100%;
+}
+
+.series.three .left h1, .series.three .left p{
+  text-align: center;
+  margin: 10px auto !important;
+
+}
+
+
+
+.series.three .left{
+  text-align: center;
+}
+
+.series.three .left .buyNow{
+  margin: 0;
+  margin-top: 10px;
+}
+
+
+
+
+
+
+
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+
+  /* series */
+  
+  .series{
+    flex-direction: column-reverse;
+    justify-content: start;
+    
+  }
+  
+  .series.two{
+    flex-direction: column;
+  }
+  
+  /* ===================================== */
+  
+  .series.one{
+    padding: 0;
+  }
+  
+  .series.one .right{
+    width: 100%;
+  }
+  
+  .series.one .left h1, .series.one .left p{
+    text-align: center;
+    margin: 10px auto !important;
+  
+  }
+  
+  .series.one .left{
+    text-align: center;
+  }
+  
+  .series.one .left .buyNow{
+    margin: 0;
+    margin-top: 10px;
+  }
+  
+  /* ======================================= */
+  
+  
+  .series.two .left{
+    width: 100%;
+  }
+  
+  .series.two .right h1, .series.two .right p{
+    text-align: center;
+    margin: 10px auto !important;
+  
+  }
+  
+  .series.two .right h1{
+    font-size: 30px;
+  }
+  
+  .series.two .right{
+    text-align: center;
+  }
+  
+  .series.two .right .buyNow{
+    margin: 0;
+    margin-top: 10px;
+  }
+  
+  /* ======================================== */
+  
+  .series.three .right{
+    width: 100%;
+  }
+  
+  .series.three .left h1, .series.three .left p{
+    text-align: center;
+    margin: 10px auto !important;
+  
+  }
+  
+  
+  
+  .series.three .left{
+    text-align: center;
+  }
+  
+  .series.three .left .buyNow{
+    margin: 0;
+    margin-top: 10px;
+  }
+
+}

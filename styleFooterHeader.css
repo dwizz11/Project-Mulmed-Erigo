@@ -1,0 +1,307 @@
+*{
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: normal;
+}
+
+nav div ul li{
+  margin-left: 70px;
+  
+}
+
+.nav-link{
+  color: #F7B301 !important;
+
+  
+}
+
+a.nav-link:hover{
+  color: white !important;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+  
+  color: #fff !important;
+}
+
+nav div ul li:nth-child(1){
+  padding-left: 40px;
+  margin: 0;
+}
+
+.navbar{
+  background-color: #1D1819;
+}
+
+.shopNow{
+  width: 150px;
+  color: #fff;
+  width: 150px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.logo-navbar{
+  width: 127px;
+  margin-right: 40px;
+  padding: 10px;
+}
+
+.fa-solid,.fas{
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+.footerErigo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1D1819;
+  height: 400px;
+  flex-direction: column;
+}
+
+.footerErigo .footerUp{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin-top: auto;
+}
+
+.footerErigo .copyrightErigo{
+  margin-top: auto;
+  padding-bottom: 40px !important;
+  color: #F7B301;
+}
+
+.footerErigo .copyrightErigo a{
+  color: #F7B301 !important;
+  text-decoration: none;
+}
+
+.footerErigo .copyrightErigo a:hover{
+  color: grey !important;
+}
+
+.form-control:focus {
+  background-color: #1D1819;
+}
+
+
+/* FOOTER 1 */
+.footer.f1 a img, .socials{
+  display: block;
+}
+
+.footer.f1 .socials{
+  /* text-align: center; */
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.footer.f1{
+  width: 200px;
+  
+}
+
+.footer.f1 a:nth-child(1){
+  display: flex;
+  justify-content: center;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+
+
+
+.logo-navbar.footer{
+  margin: 0;
+  /* width: auto; */
+}
+
+.footer.f1 .socials a{
+  color: #fff;
+}
+
+.footer.f1 .socials a:hover{
+  color: grey;
+  text-decoration: none;
+}
+
+/* FOOTER 2 */
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+    color: #fff !important;
+}
+
+input:-webkit-autofill{
+  -webkit-text-fill-color: white !important;
+}
+
+
+
+input.formBox{
+  width: 330px;
+  
+}
+
+.formBox{
+  height: 36px;
+}
+
+.emailErigo{
+  width: 300px;
+  margin: 0;
+  display: flex;
+
+}
+
+
+.footer.f2{
+  color: #F7B301;
+}
+
+.footer.f2 h7{
+  font-weight: 800;
+}
+
+.footer.f2 p{
+  margin-top: 20px;
+  margin-left: 0;
+}
+
+
+
+.footer.f2 p{
+  font-size: 13px;
+  width: 400px;
+}
+
+.footer.f2 i{
+  padding-top: 2px;
+  margin-left: 20px;
+}
+
+.footer.f2 form .emailErigo label i:hover{
+  color: grey;
+}
+
+/* FOOTER 3 */
+
+.footer.f3{
+  margin-right: 100px;
+}
+
+.footer.f3 a{
+  display: block;
+  font-size: 20px;
+  color: #F7B301;
+  text-decoration: none;
+}
+
+.footer.f3 a:hover{
+  color: white;
+}
+
+
+
+/* pop up */
+
+.swal-button {
+  background-color: #000000;
+}
+
+.swal-button:not([disabled]):hover{
+  background-color: #F7B301;
+}
+
+.swal-button:focus{
+  box-shadow: none
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+  .logo-navbar{
+    /* margin-right: 40px; */
+    margin-right: 0;
+    margin-left: 20px;
+    padding: 10px;
+    width: 120px;
+  }
+
+  .shopNow{
+    width: 130px;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 10px;
+  }
+
+
+ 
+
+
+
+ 
+
+  /* FOOTER */
+  .footerErigo{
+    height: 600px;
+    text-align: center;
+  }
+
+  .footerErigo .footerUp{
+    flex-direction: column;
+   
+  }
+
+  .footerErigo .footerUp .footer{
+    margin-bottom: 50px;
+  }
+
+  .footerErigo .footerUp .footer.f1 .logo-navbar.footer{
+    margin: 0;
+    /* width: auto; */
+  }
+
+  .footer.f3{
+    margin-right: 0;
+  }
+
+  .emailErigo{
+    margin-left: 20px;
+  }
+  
+}
+
